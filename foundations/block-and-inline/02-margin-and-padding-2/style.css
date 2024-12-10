@@ -7,21 +7,42 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 10px 8px;
+  margin-bottom: 10px;
+
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 10px 24px;
+  display: block;
+  margin: auto;
+  
 }
+
+/* SOLUTION */
+
+/* disclaimer: duplicating the selectors here isn't best practice.
+In your solution you probably put it right inside the existing selectors,
+which _is_ the best practice.
+
+We separated it out here to make it extra clear what has changed. */
+
